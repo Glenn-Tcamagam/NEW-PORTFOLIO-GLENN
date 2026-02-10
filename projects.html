@@ -45,6 +45,28 @@
 
 
 
+                             <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Chatbot IA RAG – McDonald’s Assistant (Sandwich)</h2>
+                                            <p><span class="text-gradient d-inline">Contexte & Objectif :</span> L’objectif de ce projet était de concevoir un chatbot intelligent de niveau professionnel, capable de répondre précisément à des questions métiers à partir de documents internes, tout en conservant une mémoire conversationnelle persistante, comme dans les applications utilisées en entreprise.</p>
+                                            <P><span class="text-gradient d-inline">Architecture Générale : </span>LLM (OpenAI GPT) | RAG (Retrieval-Augmented Generation) | Vector Database (ChromaDB) | Conversation Memory (AWS DynamoDB) | Frontend interactif (Streamlit) | Déploiement Cloud (AWS EC2)</P>
+                                            <p><span class="text-gradient d-inline">Préparation des données :</span>Collecte et structuration des informations McDonald’s: Sandwich, Ingrédients, Allergènes, Valeurs nutritionnelles et prix; Création de documents PDF propres et exploitables par un moteur RAG</p>
+                                            <p><span class="text-gradient d-inline">Vectorisation & Recherche :</span>Génération d’embeddings OpenAI, Stockage dans ChromaDB, Mise en place d’un retriever optimisé pour récupérer les passages les plus pertinents.</p>
+                                            <p><span class="text-gradient d-inline">RAG & Raisonnement :</span>Combinaison de (Contexte documentaire , Mémoire conversationnelle Raisonnement du LLM) et Création de prompts système spécialisés pour (réponses précises...).</p>
+                                            <p><span class="text-gradient d-inline">Mémoire Conversationnelle (AWS):</span>Implémentation d’une mémoire persistante avec DynamoDB; Stockage de (Questions utilisateurs, Réponses du chatbot, Historique des conversations); Gestion des permissions avec AWS IAM</p>
+                                            <p><span class="text-gradient d-inline">Interface Utilisateur :</span>Interface chat professionnelle, Expérience utilisateur proche de Messenger / WhatsApp, Développée avec Streamlit.</p>
+                                            <p><span class="text-gradient d-inline">Déploiement Cloud :</span>Création d’une instance AWS EC2 (Ubuntu); Connexion SSH depuis Windows ; Configuration réseau (port 8501) ; Lancement de l’application en production ; Application accessible publiquement sur <a href="http://13.61.0.90:8501/"> http://13.61.0.90:8501/</a>.</p>
+                                            <p><span class="text-gradient d-inline">Noté Bien :</span>cliquez sur le lien suivant pour obtenir la base de connaissance en pdf afin d'interroger le chatbot sur toutes les questions liées aux burgers Mcdonald's (prix, ingrédients,allergènes, valeurs nutritionnelles) <a download="Macdonals_burger_final.pdf" href="Macdonals_burger_final.pdf"> ouvrir le pdf</a>.</p>
+                                           
+                                        </div>
+                                        <!-- <img class="img-fluid" src="assets/ONGLETPOWERBI.png" alt="..." /> -->
+                                    </div>
+                                </div>
+                            </div>
+
 
                             <!-- Project Card 4-->
                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
@@ -83,15 +105,14 @@
                                             <p><span class="text-gradient d-inline">Travail 1 : :</span>Exploration et analyse des données.</p>
                                             <p><span class="text-gradient d-inline">Travail 2 :</span>Détection et gestion des valeurs manquantes(Comptage des valeurs nulles par colonne, Suppression ou filtrage des lignes incomplètes selon le contexte...).</p>
                                             <p><span class="text-gradient d-inline">Travail 3 :</span>Nettoyage et transformation des données (Conversion des types (String → Integer / Double)...).</p>
-                                            <p><span class="text-gradient d-inline">Travail 4 :</span>Création de colonnes binaires pour (victoire, défaite, match nul).</p>
-                                            <p><span class="text-gradient d-inline">Travail 5 :</span>Transformation des variables catégorielles : Encodage avec StringIndexer</p>
-                                            <p><span class="text-gradient d-inline">Travail 6 :</span>Feature engineering</p>
-                                            <p><span class="text-gradient d-inline">Travail 7 :</span>Vectorisation des données avec VectorAssembler: Création d’un vecteur de features conforme aux exigences ML Spark</p>
-                                            <p><span class="text-gradient d-inline">Travail 8 :</span>Construction d’un pipeline Machine Learning avec Spark MLlib</p>
-                                            <p><span class="text-gradient d-inline">Travail 9 :</span>Entraînement d’un modèle de régression logistique</p>
-                                             <p><span class="text-gradient d-inline">Travail 10 :</span>Séparation des données en jeux d’entraînement et de test</p>
-                                              <p><span class="text-gradient d-inline">Travail 11 :</span>Évaluation du modèle (accuracy, analyse des prédictions)</p>
-                                               <p><span class="text-gradient d-inline">Travail 12 :</span>Analyse et interprétation des résultats dans un contexte métier (santé)</p>
+                                            <p><span class="text-gradient d-inline">Travail 4 :</span>Transformation des variables catégorielles : Encodage avec StringIndexer</p>
+                                            <p><span class="text-gradient d-inline">Travail 5 :</span>Feature engineering</p>
+                                            <p><span class="text-gradient d-inline">Travail 6 :</span>Vectorisation des données avec VectorAssembler: Création d’un vecteur de features conforme aux exigences ML Spark</p>
+                                            <p><span class="text-gradient d-inline">Travail 7 :</span>Construction d’un pipeline Machine Learning avec Spark MLlib</p>
+                                            <p><span class="text-gradient d-inline">Travail 8 :</span>Entraînement d’un modèle de régression logistique</p>
+                                             <p><span class="text-gradient d-inline">Travail 9 :</span>Séparation des données en jeux d’entraînement et de test</p>
+                                              <p><span class="text-gradient d-inline">Travail 10 :</span>Évaluation du modèle (accuracy, analyse des prédictions)</p>
+                                               <p><span class="text-gradient d-inline">Travail 11 :</span>Analyse et interprétation des résultats dans un contexte métier (santé)</p>
                                             
                                         </div>
                                         <!-- <img class="img-fluid" src="assets/modèle_onglet_suiviVentes.jpg" alt="..." /> -->
@@ -101,27 +122,7 @@
 
 
 
-                            <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Chatbot IA RAG – McDonald’s Assistant (Sandwich)</h2>
-                                            <p><span class="text-gradient d-inline">Contexte & Objectif :</span> L’objectif de ce projet était de concevoir un chatbot intelligent de niveau professionnel, capable de répondre précisément à des questions métiers à partir de documents internes, tout en conservant une mémoire conversationnelle persistante, comme dans les applications utilisées en entreprise.</p>
-                                            <P><span class="text-gradient d-inline">Architecture Générale : </span>LLM (OpenAI GPT) | RAG (Retrieval-Augmented Generation) | Vector Database (ChromaDB) | Conversation Memory (AWS DynamoDB) | Frontend interactif (Streamlit) | Déploiement Cloud (AWS EC2)</P>
-                                            <p><span class="text-gradient d-inline">Préparation des données :</span>Collecte et structuration des informations McDonald’s: Sandwich, Ingrédients, Allergènes, Valeurs nutritionnelles et prix; Création de documents PDF propres et exploitables par un moteur RAG</p>
-                                            <p><span class="text-gradient d-inline">Vectorisation & Recherche :</span>Génération d’embeddings OpenAI, Stockage dans ChromaDB, Mise en place d’un retriever optimisé pour récupérer les passages les plus pertinents.</p>
-                                            <p><span class="text-gradient d-inline">RAG & Raisonnement :</span>Combinaison de (Contexte documentaire , Mémoire conversationnelle Raisonnement du LLM) et Création de prompts système spécialisés pour (réponses précises...).</p>
-                                            <p><span class="text-gradient d-inline">Mémoire Conversationnelle (AWS):</span>Implémentation d’une mémoire persistante avec DynamoDB; Stockage de (Questions utilisateurs, Réponses du chatbot, Historique des conversations); Gestion des permissions avec AWS IAM</p>
-                                            <p><span class="text-gradient d-inline">Interface Utilisateur :</span>Interface chat professionnelle, Expérience utilisateur proche de Messenger / WhatsApp, Développée avec Streamlit.</p>
-                                            <p><span class="text-gradient d-inline">Déploiement Cloud :</span>Création d’une instance AWS EC2 (Ubuntu); Connexion SSH depuis Windows ; Configuration réseau (port 8501) ; Lancement de l’application en production ; Application accessible publiquement sur <a href="http://13.61.0.90:8501/"> http://13.61.0.90:8501/</a>.</p>
-                                            <p><span class="text-gradient d-inline">Noté Bien :</span>cliquez sur le lien suivant pour obtenir la base de connaissance en pdf afin d'interroger le chatbot sur toutes les questions liées aux burgers Mcdonald's (prix, ingrédients,allergènes, valeurs nutritionnelles) <a download="Macdonals_burger_final.pdf" href="Macdonals_burger_final.pdf"> ouvrir le pdf</a>.</p>
-                                           
-                                        </div>
-                                        <!-- <img class="img-fluid" src="assets/ONGLETPOWERBI.png" alt="..." /> -->
-                                    </div>
-                                </div>
-                            </div>
+                           
 
                              <!-- Project Card 2-->
                             <!-- <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
