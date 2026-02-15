@@ -18,6 +18,34 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100 bg-light">
+
+
+
+
+<!-- Bouton flottant -->
+<div id="chatbot-button">🤖</div>
+
+<!-- Fenêtre du chatbot -->
+<div id="chatbot-container">
+  <div class="chatbot-header">
+    <span>McDonald's AI Assistant</span>
+    <button id="close-chatbot">✖</button>
+  </div>
+
+  <div id="chatbot-messages"></div>
+
+  <div class="chatbot-input">
+    <input
+      type="text"
+      id="user-input"
+      placeholder="Pose une question sur les burgers..."
+    />
+    <button id="send-btn">Envoyer</button>
+  </div>
+</div>
+
+
+
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
